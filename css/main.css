@@ -3920,6 +3920,10 @@ figcaption {
   background-color: #29cf7f;
 }
 
+.style-classic.palette-aol-orange .btn--primary {
+  background-color: #f7a71e;
+}
+
 .style-classic.palette-red .btn--primary {
   background-color: #f36763;
 }
@@ -4562,6 +4566,12 @@ body.has-theme-bar #site-wrap {
 }
 
 @media (min-width: 801px) {
+  .style-classic.palette-aol-orange .navbar__menu a:not(.btn):after {
+    background: #f7a71e;
+  }
+}
+
+@media (min-width: 801px) {
   .style-classic.palette-red .navbar__menu a:not(.btn):after {
     background: #f36763;
   }
@@ -4835,6 +4845,10 @@ body.has-theme-bar #site-wrap {
   background-color: #29cf7f;
 }
 
+.style-classic.palette-aol-orange .bg-primary {
+  background-color: #f7a71e;
+}
+
 .style-classic.palette-red .bg-primary {
   background-color: #f36763;
 }
@@ -4868,6 +4882,9 @@ body.has-theme-bar #site-wrap {
 }
 .style-classic.palette-green .section__title:after {
   background-color: #29cf7f;
+}
+.style-classic.palette-aol-orange .section__title:after {
+  background-color: #f7a71e;
 }
 .style-classic.palette-red .section__title:after {
   background-color: #f36763;
@@ -5263,6 +5280,10 @@ body.has-theme-bar #site-wrap {
 
 .style-classic.palette-green .card .btn--primary {
   background-color: #29cf7f;
+}
+
+.style-classic.palette-aol-orange .card .btn--primary {
+  background-color: #f7a71e;
 }
 
 .style-classic.palette-red .card .btn--primary {
