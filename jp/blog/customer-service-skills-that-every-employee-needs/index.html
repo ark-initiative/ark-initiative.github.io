@@ -67,6 +67,15 @@
         
         
         
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+        <link rel="manifest" href="/images/site.webmanifest">
+        <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#f7a71e">
+        <link rel="shortcut icon" href="/images/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="/images/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
     </head>
     <body class="palette-orange font-system-sans">
         
@@ -77,10 +86,15 @@
       <div class="site-branding">
         
         
-        <p class="site-logo"><a href='/jp/'><img src="/jp/images/logo.svg" alt="Logo" /></a></p>
+        <p class="site-logo">
+          <a href='/jp/'>
+            <img src="/jp/images/logo.png" alt="" />
+            <span style="margin-left: 5px;vertical-align: middle;">ARK Initiative</span>
+          </a>
+        </p>
         
         
-        <p class="site-title screen-reader-text"><a href='/jp/'>Azimuth</a></p>
+        <p class="site-title screen-reader-text"><a href='/jp/'>ARK Initiative</a></p>
         
       </div><!-- .site-branding -->
       
@@ -94,7 +108,6 @@
                 
                   日本語
                 
-                <i class="fas fa-caret-down"></i>
               </a>
               
               <div class="dropdown-content">
@@ -110,7 +123,7 @@
               
               
               
-              <li class="menu-item">
+              <li class="line-under menu-item">
                 
                 
 
@@ -130,19 +143,19 @@
               
               
               
-              <li class="menu-item">
+              <li class="line-under menu-item">
                 
                 
 
 
 
-<a href="/jp/features"
+<a href="/jp/benefits"
   
   
   class="">
   
   
-  <span >Features</span>
+  <span >メリット</span>
 </a>
 
               </li>
@@ -150,19 +163,19 @@
               
               
               
-              <li class="menu-item">
+              <li class="line-under menu-item">
                 
                 
 
 
 
-<a href="/jp/pricing"
+<a href="/jp/about"
   
   
   class="">
   
   
-  <span >Pricing</span>
+  <span >プロジェクト</span>
 </a>
 
               </li>
@@ -170,39 +183,19 @@
               
               
               
-              <li class="menu-item">
+              <li class="line-under menu-item menu-button">
                 
                 
 
 
 
-<a href="/jp/style-guide"
-  
-  
-  class="">
-  
-  
-  <span >Style Guide</span>
-</a>
-
-              </li>
-            
-              
-              
-              
-              <li class="menu-item menu-button">
-                
-                
-
-
-
-<a href="/jp/signup"
+<a href="/jp/contact"
   
   
   class="button">
   
   
-  <span >Sign Up</span>
+  <span >お問い合わせ</span>
 </a>
 
               </li>
@@ -276,12 +269,12 @@
   
     
     
-    <a class="widget-image" href='/jp/'><img src="/jp/images/logo-alt.svg" alt="Footer logo" /></a>
+    <p class="widget-image"><img height="50" width="50" src="/jp/images/logo.png" alt="Footer logo" /></p>
     
   
   
   
-  <p>Stackbit theme demo</p>
+  <p>ARK Initiative</p>
 
 </section>
 
@@ -292,7 +285,7 @@
 <section class="cell widget widget-nav">
   
   
-  <h2 class="widget-title">Project</h2>
+  <h2 class="widget-title">プロジェクト</h2>
   
   
   
@@ -310,41 +303,7 @@
   class="">
   
   
-  <span >About Us</span>
-</a>
-
-    </li>
-    
-    <li class="menu-item">
-      
-      
-
-
-
-<a href="/jp/blog"
-  
-  
-  class="">
-  
-  
-  <span >Blog</span>
-</a>
-
-    </li>
-    
-    <li class="menu-item">
-      
-      
-
-
-
-<a href="/jp/signup"
-  
-  
-  class="">
-  
-  
-  <span >Sign Up</span>
+  <span >プロジェクト概要</span>
 </a>
 
     </li>
@@ -361,7 +320,7 @@
   class="">
   
   
-  <span >Contact</span>
+  <span >お問い合わせ</span>
 </a>
 
     </li>
@@ -377,7 +336,41 @@
 <section class="cell widget widget-nav">
   
   
-  <h2 class="widget-title">Community</h2>
+  <h2 class="widget-title">ソリューション</h2>
+  
+  
+  
+  <ul class="menu">
+    
+    <li class="menu-item">
+      
+      
+
+
+
+<a href="/jp"
+  
+  
+  class="">
+  
+  
+  <span >言語学習アプリ</span>
+</a>
+
+    </li>
+    
+  </ul>
+  
+</section>
+
+          
+            
+            
+            
+<section class="cell widget widget-nav">
+  
+  
+  <h2 class="widget-title">コミュニティー</h2>
   
   
   
@@ -440,50 +433,6 @@
 </section>
 
           
-            
-            
-            
-<section class="cell widget widget-form">
-  
-  
-  <h2 class="widget-title">Subscribe</h2>
-  
-  <p>Stay up to date with our latest developments.</p>
-
-  <form name="contactForm" id="contactForm"  method="POST" data-netlify="true"
-    data-netlify-honeypot="contactForm-bot-field">
-    <div class="screen-reader-text">
-      <label id="contactForm-honeypot-label" for="contactForm-honeypot">Don't fill this out if you're
-        human:</label>
-      <input aria-labelledby="contactForm-honeypot-label" id="contactForm-honeypot"
-        name="contactForm-bot-field" />
-    </div>
-    <input aria-labelledby="contactForm-honeypot-label" type="hidden" name="form-name"
-      value="contactForm" />
-    
-    <div class="form-row">
-      
-      
-
-
-  
-  
-  <label id="email-label" for="email" class="screen-reader-text">Email</label>
-  
-
-
-<input id="email" type="email" name="email"  aria-labelledby="email-label" placeholder="Enter email address" required />
-
-
-    </div>
-    
-    <div class="form-row">
-      <button type="submit" class="button">Subscribe</button>
-    </div>
-  </form>
-</section>
-
-          
         </div>
         <div>本プロジェクト（「ARK Initiative」）はドイツ連邦経済エネルギー省と欧州社会基金のEXISTプログラムの助成を受けたものです。</div>
         <div class="grid footer-widgets">
@@ -497,10 +446,10 @@
             <img style="margin-top: 20px;" width="184px" height="90px" src="/images/exist/ESF-en.svg">
           </section>
           <section class="cell-small widget">
-            <img style="margin-top: 30px;" width="85px" height="85px" src="/images/exist/EU-en.svg">
+            <img style="margin-top: 20px;" width="200px" height="90px" src="/images/exist/Claim-ESF-en.svg">
           </section>
           <section class="cell-small widget">
-            <img style="margin-top: 20px;" width="200px" height="90px" src="/images/exist/Claim-ESF-en.svg">
+            <img style="margin-top: 30px;" width="85px" height="85px" src="/images/exist/EU-en.svg">
           </section>
         </div>
       </div>
@@ -516,9 +465,18 @@
           <li class="menu-item"> 
             
             
-<a href="/jp/impress"
+<a href="mailto:info@ark-initiative.com"
   
-  >概要ページ</a>
+  >info@ark-initiative.com</a>
+
+          </li>
+          
+          <li class="menu-item"> 
+            
+            
+<a href="/jp/imprint"
+  
+  >概要ページ（ドイツ語）</a>
 
           </li>
           
@@ -527,7 +485,7 @@
             
 <a href="/jp/privacy-policy"
   
-  >プライバシーポリシー</a>
+  >プライバシーポリシー（ドイツ語）</a>
 
           </li>
           
@@ -535,7 +493,7 @@
       </div>
       
       <div class="site-info">
-        &copy; ARK Initiative. All rights reserved. This Jamstack site was created with <a href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank" rel="noopener">Stackbit</a>. Create yours <a href="https://app.stackbit.com/create?theme=azimuth&utm_source=deployed-footer" target="_blank" rel="noopener">now</a>.
+        &copy; 2021 ARK Initiative. All rights reserved. Logo created by <a href='https://www.designevo.com/' title='Free Online Logo Maker'>DesignEvo logo maker</a>.
         &nbsp;
         
       </div>

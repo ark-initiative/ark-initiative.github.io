@@ -160,7 +160,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
 
 a {
-  color: #0072ff;
+  color: #f7a71e;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.125em;
@@ -238,7 +238,7 @@ pre {
   white-space: pre; }
 
 blockquote {
-  border-left: 3px solid #0072ff;
+  border-left: 3px solid #f7a71e;
   color: #1f1f20;
   font-size: 1.33333em;
   line-height: 1.3;
@@ -315,7 +315,7 @@ img {
 .underline {
   position: relative; }
   .underline:after {
-    border-left: 1.5em solid #0072ff;
+    border-left: 1.5em solid #f7a71e;
     display: block;
     content: "";
     height: 2px;
@@ -354,7 +354,7 @@ img {
   box-shadow: 0 3px 10px 0 rgba(76, 82, 103, 0.1);
   box-sizing: border-box; }
   .card.highlight {
-    border-color: #0072ff;
+    border-color: #f7a71e;
     border-width: 2px; }
 
 table {
@@ -483,8 +483,8 @@ textarea {
 .button {
   -ms-flex-align: center;
   align-items: center;
-  background: #0072ff;
-  border: 2px solid #0072ff;
+  background: #f7a71e;
+  border: 2px solid #f7a71e;
   border-radius: 3px;
   box-sizing: border-box;
   color: #fff;
@@ -510,7 +510,7 @@ textarea {
     padding: 0.625em 2.5em; }
   .button.secondary {
     background: transparent;
-    color: #0072ff; }
+    color: #f7a71e; }
 
 .icon {
   color: inherit;
@@ -574,7 +574,7 @@ textarea {
     transform: rotate(-45deg); }
 
 .icon-plus {
-  background: #0072ff;
+  background: #f7a71e;
   border-radius: 50%;
   color: #fff;
   height: 24px;
@@ -735,6 +735,25 @@ textarea {
     .site-navigation .menu-item {
       display: inline-block;
       margin: 0 0 0 1.875em; }
+    .site-navigation .current-menu-item a {
+      border-bottom-color: #f7a71e;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      box-sizing: content-box;
+      content: '';
+      display: block;
+      /*margin-top: 3px;*/ }
+    .site-navigation .line-under a:not(.button):not(.current-menu-item a)::after {
+      border-bottom-color: #f7a71e;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      box-sizing: content-box;
+      content: '';
+      display: block;
+      /*margin-top: 3px;*/
+      width: 0; }
+    .site-navigation .line-under a:not(.button):not(.current-menu-item a):hover::after {
+      animation: widthIn .5s forwards; }
     .site-navigation .button {
       padding: 0.25em 0.9375em; }
     .site-navigation .menu-button + .menu-button {
@@ -749,6 +768,11 @@ textarea {
       z-index: 999; }
       .has--scrolled .site-header {
         box-shadow: 0 1px 4px 0 rgba(76, 82, 103, 0.1); } } }
+@keyframes widthIn {
+  0% {
+    width: 0; }
+  100% {
+    width: 100%; } }
 @media only screen and (max-width: 800px) {
   .site {
     overflow: hidden;
@@ -1075,6 +1099,7 @@ textarea {
   margin-bottom: 2.22222em; }
 
 .block-item {
+  margin-top: 4em;
   margin-bottom: 1.66667em; }
   .block-item:last-child {
     margin-bottom: 0; }
@@ -1161,7 +1186,7 @@ textarea {
   padding-top: 2.25em;
   position: relative; }
   .review-text:before {
-    color: #0072ff;
+    color: #f7a71e;
     content: "\201C";
     display: block;
     font-size: 3.5em;
@@ -1194,6 +1219,8 @@ textarea {
   margin: 0; }
   .font-fira-sans .review-author {
     font-weight: 600; }
+  .review-author:hover {
+    color: #f7a71e; }
 
 .contact-block form {
   margin: 1.66667em 0; }
@@ -1312,9 +1339,9 @@ textarea {
   .block.bg-white .handorgel__content-inner {
     box-shadow: 0 3px 10px 0 rgba(76, 82, 103, 0.15); }
 .block.bg-accent {
-  background: #0072ff;
-  background: -webkit-gradient(linear, left top, right top, from(#0072ff), to(#00c6ff));
-  background: linear-gradient(to right, #0072ff, #00c6ff);
+  background: #f7a71e;
+  background: -webkit-gradient(linear, left top, right top, from(#f7a71e), to(#00c6ff));
+  background: linear-gradient(to right, #f7a71e, #00c6ff);
   color: #fff; }
   .block.bg-accent a:not(.button) {
     color: #fff; }
@@ -1339,7 +1366,7 @@ textarea {
   .block.bg-accent .button {
     background: #fff;
     border-color: #fff;
-    color: #0072ff; }
+    color: #f7a71e; }
     .block.bg-accent .button.secondary {
       background: transparent;
       color: #fff; }
@@ -1410,7 +1437,8 @@ textarea {
   .footer-top .cell-small {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
-    max-width: 50%; }
+    max-width: 50%;
+    text-align: center; }
   .footer-top .widget-text:first-child {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
