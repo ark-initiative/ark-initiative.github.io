@@ -1429,7 +1429,18 @@ textarea {
   .site-info:not(:first-child) {
     margin-top: 1em; }
 
-@media only screen and (min-width: 481px) {
+@media only screen and (max-width: 320px) {
+  .footer-top .cell, .footer-top .cell-small {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%; }
+  .footer-top .cell-small {
+    text-align: center; }
+  .footer-top .widget-text:first-child {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%; } }
+@media only screen and (min-width: 321px) {
   .footer-top .cell {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
