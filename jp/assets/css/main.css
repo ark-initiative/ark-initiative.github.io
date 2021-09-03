@@ -1022,6 +1022,18 @@ textarea {
 .cta-block .cell {
   text-align: center; }
 
+.block-copy.bio {
+  text-align: justify; }
+
+.bio-avatar {
+  max-height: 300px;
+  width: auto;
+  margin-left: 20px;
+  float: right;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10%; }
+
 @media only screen and (min-width: 801px) {
   .hero-block .cell:only-child,
   .text-block .cell:only-child,
@@ -1076,7 +1088,15 @@ textarea {
   .hero-block .underline:after,
   .text-block .underline:after,
   .features-block .underline:after {
-    display: none; } }
+    display: none; }
+
+  .bio-avatar {
+    max-height: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10%;
+    display: block;
+    width: 50%; } }
 .cta-block .block-title {
   margin-bottom: 0.25em; }
 .cta-block .block-buttons {
