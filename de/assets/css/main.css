@@ -969,6 +969,21 @@ textarea {
     .block-title {
       font-size: 2.44444em; } }
 
+.hero-block .block-preview img {
+  max-width: 75%; }
+
+.gradient-text {
+  background: #f7a71e;
+  background: -webkit-gradient(linear, left top, right top, from(#f83600), to(#4baccf));
+  background: linear-gradient(to right, #f83600, #4baccf);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  --animate-delay: 0.5s; }
+
 .block-header {
   text-align: center; }
   .block-header .block-title {
