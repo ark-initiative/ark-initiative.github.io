@@ -684,9 +684,9 @@ textarea {
   color: inherit; }
 #masthead .site-navigation .current-menu-item {
   color: #7b839e; }
-#masthead .site-navigation a:not(.button) {
+#masthead .site-navigation a:not(.button), #masthead .site-navigation .dropbtn {
   color: inherit; }
-  #masthead .site-navigation a:not(.button):hover {
+  #masthead .site-navigation a:not(.button):hover, #masthead .site-navigation .dropbtn:hover {
     color: #7b839e; }
 
 .flag-icon {
@@ -699,7 +699,6 @@ textarea {
 .dropdown .dropbtn {
   border: none;
   outline: none;
-  color: white;
   background-color: inherit;
   font-family: inherit; }
 
@@ -836,7 +835,7 @@ textarea {
         border-top: 1px solid #ebecf0; }
     .site-navigation .menu-item.menu-button {
       margin-top: 1.66667em; }
-    .site-navigation a:not(.button) {
+    .site-navigation a:not(.button), .site-navigation .dropbtn:not(.button) {
       display: block;
       padding: 0.75em 0; }
     .site-navigation .dropdown-content a {
@@ -971,6 +970,27 @@ textarea {
 
 .hero-block .block-preview img {
   max-width: 75%; }
+
+#hero {
+  position: relative; }
+
+.custom-shape-divider-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg); }
+
+.custom-shape-divider-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(166% + 1.3px);
+  height: 100px; }
+
+.custom-shape-divider-bottom .shape-fill {
+  fill: #f7f9fb; }
 
 .gradient-text {
   background: #f7a71e;
