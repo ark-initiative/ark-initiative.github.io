@@ -1466,6 +1466,7 @@ textarea {
   margin: 0 0 1.2em; }
 
 .widget-nav a:not(.button),
+.widget-text a:not(.button),
 .footer-nav a:not(.button) {
   text-decoration: none; }
 
