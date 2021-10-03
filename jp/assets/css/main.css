@@ -229,7 +229,7 @@ ins {
 
 pre {
   background: #1f1f20;
-  border-radius: 3px;
+  border-radius: 10px;
   color: #ebecf0;
   font-size: 0.83333em;
   margin: 0 0 2em;
@@ -350,7 +350,7 @@ img {
 .card {
   background: #fff;
   border: 1px solid #ebecf0;
-  border-radius: 3px;
+  border-radius: 10px;
   box-shadow: 0 3px 10px 0 rgba(76, 82, 103, 0.1);
   box-sizing: border-box; }
   .card.highlight {
@@ -415,7 +415,7 @@ select,
 textarea {
   background: #fff;
   border: 1px solid #ebecf0;
-  border-radius: 3px;
+  border-radius: 10px;
   box-shadow: none;
   box-sizing: border-box;
   color: #1f1f20;
@@ -485,7 +485,7 @@ textarea {
   align-items: center;
   background: #f7a71e;
   border: 2px solid #f7a71e;
-  border-radius: 3px;
+  border-radius: 10px;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
@@ -705,6 +705,7 @@ textarea {
 .dropdown-content {
   display: none;
   position: absolute;
+  border-radius: 10px;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -720,7 +721,8 @@ textarea {
 
 .dropdown-content a:hover {
   background-color: #ddd;
-  color: black; }
+  color: black;
+  border-radius: inherit; }
 
 .dropdown:hover .dropdown-content {
   display: block; }
@@ -889,7 +891,7 @@ textarea {
 
 .post-image img,
 .post-content img {
-  border-radius: 3px; }
+  border-radius: 10px; }
 
 .post-full .post-header {
   margin-bottom: 2.5em;
@@ -926,7 +928,7 @@ textarea {
     margin-bottom: 0.25em; }
 
 .post-thumbnail {
-  border-radius: 3px 3px 0 0;
+  border-radius: 10px 10px 0 0;
   display: block;
   margin: 0;
   position: relative;
@@ -936,7 +938,7 @@ textarea {
     display: block;
     padding-top: 66.666%; }
   .post-thumbnail img {
-    border-radius: 3px 3px 0 0;
+    border-radius: 10px 10px 0 0;
     height: 100%;
     left: 0;
     object-fit: cover;
@@ -1312,7 +1314,7 @@ textarea {
     max-width: 40%; }
   .posts-block .post-thumbnail,
   .posts-block .post-thumbnail img {
-    border-radius: 0 3px 3px 0; }
+    border-radius: 0 10px 10px 0; }
   .posts-block .post-body {
     -ms-flex-positive: 1;
     flex-grow: 1; } }
@@ -1322,7 +1324,7 @@ textarea {
 .handorgel__header {
   background: #fff;
   border: 1px solid #ebecf0;
-  border-radius: 3px;
+  border-radius: 10px;
   box-shadow: 0 3px 10px 0 rgba(76, 82, 103, 0.1);
   box-sizing: border-box;
   font-size: 1em;
@@ -1367,13 +1369,13 @@ textarea {
   background: #fff;
   border: 1px solid #ebecf0;
   border-top: 0;
-  border-radius: 0 0 3px 3px;
+  border-radius: 0 0 10px 10px;
   box-shadow: 0 3px 10px 0 rgba(76, 82, 103, 0.1);
   font-size: 0.88889em;
   padding: 1.125em 0.9375em; }
 
 .handorgel__header--open.handorgel__header--opened {
-  border-radius: 3px 3px 0 0; }
+  border-radius: 10px 10px 0 0; }
   .handorgel__header--open.handorgel__header--opened .icon-plus:after {
     display: none; }
 
